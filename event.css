@@ -8,6 +8,12 @@ body{
     padding: 15px;
 }
 
+#menuToggle{
+
+  display: none;
+}
+
+
 #wrap{
     height: 80px;
 }
@@ -26,11 +32,13 @@ nav {
     
 }
 #new{
+  
 background-color: rgb(235, 197, 47); 
 text-align: center ;
 color: #fff;
 padding: 80px;
 height: 700px;
+
 }
 #hot
 {
@@ -39,6 +47,7 @@ height: 700px;
     color: #fff;
     padding: 80px;
     height: 700px;
+    
 }
 #all
 {
@@ -67,6 +76,14 @@ color: #fff;
 padding: 10px;
 }
 
+.title{
+ float: left;
+
+ padding: 20px;
+}
+.title2{
+  float: left;
+}
 
 a {
     text-decoration: none;
@@ -76,12 +93,25 @@ a {
     font-size: 1.5em;
     font-weight: 400;
     transition: 200ms;
+    
   }
   
+
+
+
+  @media(max-width:500px){
+
+ .title{
+   display: none;
+ }
+
+.title2{
+  float: none;}
+
   
   #menuToggle {
     
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     position: relative;
     top: -20px;
@@ -94,7 +124,9 @@ a {
     -webkit-user-select: none;
     user-select: none;
   }
-  
+ 
+
+
   #menuToggle input
 {
   display: flex;
@@ -174,4 +206,5 @@ a {
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
 }

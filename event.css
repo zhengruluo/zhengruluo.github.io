@@ -35,6 +35,8 @@ h1 ,h2 ,h3{
   color: #36383F;
 }
 
+
+
 #logo{
     border: 20px;
     padding: 15px;
@@ -63,14 +65,33 @@ nav {
     background-color: green;
     
 }
+
+#earth{
+  float: left;
+  width: 350px;
+  
+}
+
 #new{
   
 /* background-color: rgb(235, 197, 47);  */
-text-align: center ;
+
 color: #fff;
 padding: 80px;
-height: auto;
+height: 750px;
+text-align: center;
 
+}
+#new1-0{
+  text-align: center;
+}
+
+#new1-1{
+  
+  /* text-align: justify; */
+  /* width: 900px; */
+height: 400px;
+/* float: right; */
 }
 
 #one{

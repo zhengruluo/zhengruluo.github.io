@@ -1,6 +1,8 @@
 body{
     
     width: 100%;
+    min-width: 350px;
+    background-color: aqua;
     
 }
 
@@ -13,6 +15,24 @@ a {
   font-weight: 400;
   transition: 200ms;
   
+}
+
+
+.h1{
+font-size: 40px;
+line-height: 1.5;
+}
+.h2{
+  font-size: 30px;
+  line-height: 1.5;
+}
+.h3{
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1 ,h2 ,h3{
+  color: #36383F;
 }
 
 #logo{
@@ -37,7 +57,7 @@ nav {
     position: fixed;
     /* overflow: visible; */
     margin: auto ;
-    
+  
     
     
     background-color: green;
@@ -45,43 +65,59 @@ nav {
 }
 #new{
   
-background-color: rgb(235, 197, 47); 
+/* background-color: rgb(235, 197, 47);  */
 text-align: center ;
 color: #fff;
 padding: 80px;
-height: 700px;
+height: auto;
 
 }
 
-#new img{
+#one{
   text-align: center;
   width: 100%;
 }
 
 #hot
 {
-    background-color: rgb(21, 230, 59); 
+    /* background-color: rgb(21, 230, 59);  */
     text-align: center ;
     color: #fff;
     padding: 80px;
-    height: 700px;
+    height: auto;
     
 }
 #all
 {
-    background-color: rgb(74, 74, 47); 
+    /* background-color: rgb(74, 74, 47);  */
     text-align: center ;
     color: #fff;
     padding: 80px;
-    height: 700px;
+    height: auto;
 }
+
+
+
+#all div img{
+  
+  
+ height: 100px;
+ 
+ 
+}
+/* #all div a{
+margin: 10px;
+border-radius: 20px;
+padding: 5px;
+background-color: red;
+} */
 #about
 {
-    background-color: rgb(235, 197, 47); 
+    /* background-color: rgb(235, 197, 47);  */
     text-align: center ;
     color: #fff;
     padding: 80px;
-    height: 700px;
+    height: auto;
 }
 
 
@@ -110,7 +146,7 @@ padding: 10px;
 
 
 
-  @media(max-width:500px){
+  @media(max-width:530px){
 
 
     nav {

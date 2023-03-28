@@ -78,7 +78,7 @@ nav {
 
 color: #fff;
 padding: 80px;
-height: 750px;
+height: auto;
 text-align: center;
 
 }
@@ -90,9 +90,11 @@ text-align: center;
   
   /* text-align: justify; */
   /* width: 900px; */
-height: 400px;
+/* height: 400px; */
 /* float: right; */
 }
+
+
 
 #one{
   text-align: center;
@@ -169,7 +171,9 @@ padding: 10px;
 
   @media(max-width:530px){
 
-
+    #movie{
+      display: none;
+    }
     nav {
     
       height: 80px;

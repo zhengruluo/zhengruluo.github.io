@@ -52,6 +52,12 @@ padding: 80px;
 height: 700px;
 
 }
+
+#new img{
+  text-align: center;
+  width: 100%;
+}
+
 #hot
 {
     background-color: rgb(21, 230, 59); 

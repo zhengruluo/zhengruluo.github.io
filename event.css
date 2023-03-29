@@ -2,7 +2,7 @@ body{
     
     width: 100%;
     min-width: 450px;
-    background-color: aqua;
+    background-color: rgb(210, 218, 212);
     
 }
 
@@ -52,6 +52,11 @@ h1 ,h2 ,h3{
   display: none;
 }
 
+#line{
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 #wrap{
     height: 70px;
@@ -99,7 +104,16 @@ text-align: center;
 /* float: right; */
 }
 
+#android{
+  text-align: left;
+  padding-left: 25%;
+  float: left;
+}
 
+#ios{
+  padding-right: 15%;
+  
+}
 
 #one{
   text-align: center;
@@ -274,6 +288,9 @@ padding: 10px;
   transform: rotate(-45deg) translate(0, -1px);
 }
 
+
+
+
 #menu
 {
   position: absolute;
@@ -306,5 +323,12 @@ padding: 10px;
 {
 
   color: black;
+}
+#android ，#ios{
+  text-align: center
+}
+
+#line{
+  float: none;
 }
 }

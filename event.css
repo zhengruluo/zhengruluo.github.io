@@ -379,25 +379,25 @@ padding: 10px;
 }
 .block1 img {
   height: auto;
-  padding: 20px;
+  padding: -20px;
   display: inline-block;
-  width: 330px;
+  width: 280px;
   
 }
 
 .block2 img {
   height: auto;
-  padding: 20px;
+  padding: -20px;
   display: inline-block;
-  width: 330px;
+  width: 280px;
   
 }
 
 .block3 img {
   height: auto;
-  padding: 20px;
+  padding: -20px;
   display: inline-block;
-  width: 330px;
+  width: 280px;
   
 }
 

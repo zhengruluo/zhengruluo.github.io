@@ -101,9 +101,17 @@ text-align: center;
 }
 #new1-0{
   text-align: center;
+
 }
 
-
+#question{
+  background-color: rgba(163, 186, 12, 0.915);
+  width: 200px;
+  border-radius: 20px;
+text-align: center;
+margin: 30px;
+display:inline-block ; 
+}
 
 #android{
   text-align: left;

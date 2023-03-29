@@ -2,7 +2,7 @@ body{
     
     width: 100%;
     min-width: 510px;
-   
+    height: auto;
     background-color: rgb(194, 195, 211);
     
 }

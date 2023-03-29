@@ -226,6 +226,7 @@ background-color: red;
 .about1{
   display: inline-block;
   text-align: center;
+  width: 100%;
 }
 footer
 {

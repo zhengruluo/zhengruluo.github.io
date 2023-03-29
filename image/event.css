@@ -29,12 +29,12 @@ font-size: 40px;
 line-height: 1.5;
 }
 .h2{
-  font-size: 29px;
-  line-height: 1.8;
+  font-size: 30px;
+  line-height: 1.5;
 }
 .h3{
   font-size: 20px;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 h1 ,h2 ,h3{
@@ -54,12 +54,10 @@ h1 ,h2 ,h3{
 }
 
 #line{
-  /* background-color: #36383F; */
-  display: inline-block;
-  padding: 20px;
-  /* padding-left: 30%; */
-  /* padding-top: -40px; */
-  /* padding-bottom: 40px; */
+  float: left;
+  padding-left: 30%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .icon{
@@ -91,41 +89,6 @@ nav {
   
 }
 
-.block1 {
-  display: inline-block;
-  
-  
-  padding: 20px;
-}
-
-.block1 img{
-  height: 240px;
-}
-
-.block2{
-  display: inline-block;
-  padding: 20px;
-  
-}
-
-.block2 img{
-  height: 160px;
-}
-
-.block3{
-  padding: 20px;
-  display: inline-block;
-  
-}
-
-.block3 img{
-  height: 400px;
-}
-
-.block01，.block02{
-  display: inline-block;
-}
-
 #new{
   
 background-color: rgb(167, 217, 218); 
@@ -138,31 +101,19 @@ text-align: center;
 }
 #new1-0{
   text-align: center;
-
 }
 
-#question{
-  background-color: rgba(163, 186, 12, 0.915);
-  width: 200px;
-  border-radius: 20px;
-text-align: center;
-margin: 30px;
-display:inline-block ; 
-}
+
 
 #android{
-  text-align: center;
-  /* padding-left: 26%; */
-  /* float: left; */
-  display: inline-block;
-  padding: 20px;
- 
+  text-align: left;
+  padding-left: 26%;
+  float: left;
 }
 
 #ios{
-  /* padding-right: 10%; */
-  display: inline-block;
-  padding: 20px;
+  padding-right: 10%;
+  
   
 }
 
@@ -200,10 +151,7 @@ display:inline-block ;
 }
 
 #group{
-  display: inline-block;
-  padding: 20px;
-  /* padding-top: 50px; */
-  /* text-align: center; */
+  text-align: center;
   
 
 }
@@ -223,10 +171,7 @@ background-color: red;
     height: auto;
 }
 
-.about1{
-  display: inline-block;
-  text-align: center;
-}
+
 footer
 {
 background-color: black; 
@@ -252,7 +197,7 @@ padding: 10px;
 
 
 
-  @media(max-width:750px){
+  @media(max-width:530px){
 
     #movie iframe{
       width: 100%;
@@ -386,31 +331,7 @@ padding: 10px;
 }
 
 #line{
-  padding-bottom: 0px;
-  
+  padding-left: 0px;
+  float: none;
 }
-.block1 img {
-  height: auto;
-  padding: -20px;
-  display: inline-block;
-  width: 100%;
-  
-}
-
-.block2 img {
-  height: auto;
-  padding: -20px;
-  display: inline-block;
-  width: 100%;
-  
-}
-
-.block3 img {
-  height: auto;
-  padding: -20px;
-  display: inline-block;
-  width: 100%;
-  
-}
-
 }

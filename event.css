@@ -30,11 +30,11 @@ line-height: 1.5;
 }
 .h2{
   font-size: 30px;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 .h3{
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 h1 ,h2 ,h3{
@@ -87,6 +87,41 @@ nav {
   float: left;
   width: 350px;
   
+}
+
+.block1 {
+  display: inline-block;
+  
+  
+  padding: 20px;
+}
+
+.block1 img{
+  height: 240px;
+}
+
+.block2{
+  display: inline-block;
+  padding: 20px;
+  
+}
+
+.block2 img{
+  height: 160px;
+}
+
+.block3{
+  padding: 20px;
+  display: inline-block;
+  
+}
+
+.block3 img{
+  height: 400px;
+}
+
+.block01，.block02{
+  display: inline-block;
 }
 
 #new{
@@ -342,4 +377,28 @@ padding: 10px;
   padding-left: 0px;
   float: none;
 }
+.block1 img {
+  height: auto;
+  padding: 20px;
+  display: inline-block;
+  width: 330px;
+  
+}
+
+.block2 img {
+  height: auto;
+  padding: 20px;
+  display: inline-block;
+  width: 330px;
+  
+}
+
+.block3 img {
+  height: auto;
+  padding: 20px;
+  display: inline-block;
+  width: 330px;
+  
+}
+
 }

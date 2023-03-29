@@ -60,6 +60,10 @@ h1 ,h2 ,h3{
   padding-bottom: 40px;
 }
 
+.icon{
+  height: 40px;
+}
+
 #wrap{
     height: 70px;
 }

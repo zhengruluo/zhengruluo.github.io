@@ -393,7 +393,8 @@ footer div{
 }
 
 #line{
-  padding-bottom: 0px;
+  padding: 0px;
+  margin: 20px;
   
 }
 .block1 img {
